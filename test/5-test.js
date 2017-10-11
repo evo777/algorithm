@@ -8,7 +8,7 @@ const test = (num) => {
 
   solution(f, num);
 
-  num === count ? console.log(count) : console.log('Wrong');
+  num === count ? console.log('Test passed') : console.log('Test failed');
 };
 
 test(5);
